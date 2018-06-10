@@ -1,4 +1,3 @@
-
 <?php
 /**
 *Plugin Name: Display Unique Customer ID's
@@ -24,9 +23,7 @@
 	along with this program; if not, write to the Free Software
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
- 
-    function unique_customer_ID()
-        
+    function unique_customer_ID()      
         {   
             $customer_id = get_current_user_id();
             if ($customer_id == 0) {
@@ -46,6 +43,3 @@
             }
         }
         add_shortcode('customerID','unique_customer_ID');
-
-
-
