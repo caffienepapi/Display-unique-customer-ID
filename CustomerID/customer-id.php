@@ -48,6 +48,4 @@
         add_shortcode('customerID','unique_customer_ID');
 
 
-?>
-
 
